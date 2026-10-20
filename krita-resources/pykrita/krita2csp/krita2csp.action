@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+<!-- Shortcuts are assigned by install.sh in kritashortcutsrc, so they can
+     replace Krita's own bindings for P, B, E and J without conflicts. -->
+<ActionCollection version="2" name="Scripts">
+  <Actions category="Krita2CSP">
+    <text>Krita2CSP (Clip Studio Paint style)</text>
+
+    <Action name="krita2csp_tool_pen">
+      <icon></icon>
+      <text>CSP: Pen / Pencil</text>
+      <whatsThis></whatsThis>
+      <toolTip>Pen tool; press again for Pencil</toolTip>
+      <iconText></iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut></shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip></statusTip>
+    </Action>
+
+    <Action name="krita2csp_tool_brush">
+      <icon></icon>
+      <text>CSP: Brush / Airbrush / Decoration</text>
+      <whatsThis></whatsThis>
+      <toolTip>Brush tool; press again for Airbrush, then Decoration</toolTip>
+      <iconText></iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut></shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip></statusTip>
+    </Action>
+
+    <Action name="krita2csp_tool_eraser">
+      <icon></icon>
+      <text>CSP: Eraser</text>
+      <whatsThis></whatsThis>
+      <toolTip>Eraser tool</toolTip>
+      <iconText></iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut></shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip></statusTip>
+    </Action>
+
+    <Action name="krita2csp_tool_blend">
+      <icon></icon>
+      <text>CSP: Blend</text>
+      <whatsThis></whatsThis>
+      <toolTip>Blend tool</toolTip>
+      <iconText></iconText>
+      <activationFlags>10000</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut></shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip></statusTip>
+    </Action>
+
+    <Action name="krita2csp_apply_layout">
+      <icon></icon>
+      <text>Apply CSP layout</text>
+      <whatsThis></whatsThis>
+      <toolTip>Arrange the dockers like Clip Studio Paint</toolTip>
+      <iconText></iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut></shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip></statusTip>
+    </Action>
+
+    <Action name="krita2csp_reset_groups">
+      <icon></icon>
+      <text>Reset CSP brush groups</text>
+      <whatsThis></whatsThis>
+      <toolTip>Restore the default brushes in all Sub Tool groups</toolTip>
+      <iconText></iconText>
+      <activationFlags>0</activationFlags>
+      <activationConditions>0</activationConditions>
+      <shortcut></shortcut>
+      <isCheckable>false</isCheckable>
+      <statusTip></statusTip>
+    </Action>
+  </Actions>
+</ActionCollection>

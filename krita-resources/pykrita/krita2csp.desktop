@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=Krita/PythonPlugin
+X-KDE-Library=krita2csp
+X-Python-2-Compatible=false
+X-Krita-Manual=Manual.html
+Name=Krita2CSP (Clip Studio Paint style)
+Name[de]=Krita2CSP (Clip-Studio-Paint-Stil)
+Comment=Tool, Sub Tool, Tool Property and Brush Size palettes and a docker layout modeled on Clip Studio Paint.
+Comment[de]=Werkzeug-, Unterwerkzeug-, Werkzeugeigenschaft- und Pinselgröße-Paletten und ein Layout nach dem Vorbild von Clip Studio Paint.

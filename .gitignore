@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+*.krita2csp-tmp
+dev/*.png
